@@ -11,7 +11,7 @@
   <h1>Volunteer Form</h1>
     <form method="POST" autocomplete = "on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
       <fieldset>
-      <p><b>My Info</b></p>
+      <legend><b>My Info</b></legend>
         <div>
           <label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
         </div>
@@ -41,9 +41,7 @@
           </select>
         </div>
       </fieldset>
-      <div>
-        <legend><b>My Availability</b></legend>
-      </div>
+      <p><b>My Availability</b></p>
       <fieldset>
         <div>
           <label>Days Available:</label><br>
@@ -61,6 +59,7 @@
         </div>
         <div>
           <input type="hidden" name="hidden_field" value="aabdrabo">
+        </div>
       </fieldset>
       <input type ="submit" value="Send Me">
     </form>
